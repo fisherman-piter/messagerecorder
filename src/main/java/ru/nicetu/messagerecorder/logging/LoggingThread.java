@@ -15,6 +15,9 @@ public class LoggingThread extends Thread {
     private final BlockingQueue<Message> queue;
     private final List<MessageAppender> appenderList;
 
+    //test commit #1
+    //test commit #2
+    //test commit #4
     public LoggingThread(BlockingQueue<Message> queue, List<MessageAppender> appenderList) {
         this.queue = queue;
         this.appenderList = appenderList;
