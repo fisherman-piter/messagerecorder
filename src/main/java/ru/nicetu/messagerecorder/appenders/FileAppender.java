@@ -38,6 +38,7 @@ public class FileAppender implements MessageAppender {
         } catch (InterruptedException e) {
 
         }
+        LOG.info("File appender closed");
     }
 
     private class WriterThread extends Thread {
