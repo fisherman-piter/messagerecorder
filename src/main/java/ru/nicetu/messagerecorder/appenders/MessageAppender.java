@@ -9,5 +9,8 @@ public interface MessageAppender {
 
     public void append(Message message);
 
+    /**
+     * Close appender
+     */
     public void close();
 }
