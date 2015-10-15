@@ -32,7 +32,7 @@ public final class FormatterUtil {
         result.append(String.format("%02d", calendar.get(Calendar.SECOND)));
         result.append(".");
 
-        result.append(String.format("%02d", calendar.get(Calendar.MILLISECOND)));
+        result.append(String.format("%03d", calendar.get(Calendar.MILLISECOND)));
 
         result.append(" - ");
         result.append(message.getMessage());
