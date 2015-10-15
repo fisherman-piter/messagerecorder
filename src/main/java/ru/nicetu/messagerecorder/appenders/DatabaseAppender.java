@@ -15,6 +15,6 @@ public class DatabaseAppender implements MessageAppender {
 
     @Override
     public void close() {
-
+        System.out.println("Closingb database appender is not implemented yet");
     }
 }
