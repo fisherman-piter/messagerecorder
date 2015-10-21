@@ -10,6 +10,7 @@ public final class FormatterUtil {
     private FormatterUtil() {
     }
 
+    //some changes to develop
     public static String formatMessage(Message message) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(message.getTime());
