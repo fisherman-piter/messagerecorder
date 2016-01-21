@@ -17,7 +17,7 @@ public final class AppMain {
         throw new UnsupportedOperationException();
     }
 
-
+    //PROVERKA
     public static void main(String[] args) {
         final LogSystem system = LogSystem.getInstance();
         system.init();
